@@ -3,6 +3,11 @@
     <a class="avatar">
       <img :src="avatar_url">
     </a>
+    <a class="avatar" style="clear: left; text-align: center">
+      <i class="big caret up icon"></i>
+      3
+      <i class="big caret down icon"></i>
+    </a>
     <div class="content">
       <a class="author">{{comment.author}}</a>
       <div class="metadata">
@@ -22,11 +27,6 @@
     </div>
   </div>
 </template>
-
-<style src="semantic-ui-css/semantic.min.css">
-/* Side note - it totally works as "scoped" too, but the body styles are missing */
-/*@import "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css";*/
-</style>
 
 <script>
 import ago from 's-ago'

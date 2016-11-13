@@ -4,6 +4,11 @@
   </div>
 </template>
 
+<style src="semantic-ui-css/semantic.min.css">
+/* Side note - it totally works as "scoped" too, but the body styles are missing */
+/*@import "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css";*/
+</style>
+
 <style>
 @import "https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.css";
 #app {

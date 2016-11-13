@@ -6,11 +6,6 @@
   </div>
 </template>
 
-<style src="semantic-ui-css/semantic.min.css">
-/* Side note - it totally works as "scoped" too, but the body styles are missing */
-/*@import "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css";*/
-</style>
-
 <script>
 export default {
   name: 'base-comments',
